@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class TextService {
 
     /**
-     * task №1
+     * task 1
      */
     public List <TextPart> findSentenceWithRepeatingWords(Text text){
         List<TextPart> sentences = getAllSentences(text);
@@ -25,8 +25,7 @@ public class TextService {
     }
 
     /**
-     * 2. Вывести все предложения заданного текста в порядке возрастания
-     * количества слов в каждом из них.
+     * task 2
      */
 
     public  List<TextPart> sortStringsByNumberOfWords (Text text){
@@ -36,8 +35,7 @@ public class TextService {
         return sentences;
     }
     /**
-     * 3. Найти такое слово в первом предложении, которого нет ни в одном из остальных
-     * предложений.
+     * task 3
      */
 
     public Set<TextPart> findUniqueWordsFromFirstSentence(Text text){
@@ -51,8 +49,7 @@ public class TextService {
     }
 
     /**
-     * 5. В каждом предложении текста поменять местами первое слово с последним, не
-     * изменяя длины предложения.
+     * task 5
      */
 
     public  List<TextPart> replaceFirstAndLastWordInSentence (Text text) {
@@ -68,8 +65,7 @@ public class TextService {
     }
 
     /**
-     * 6. Напечатать слова текста в алфавитном порядке по первой
-     * букве. Слова, начинающиеся с новой буквы, печатать с красной строки.
+     * task 6
      */
 
     public Set <String> sortWordsByAlphabet (Text text) {
