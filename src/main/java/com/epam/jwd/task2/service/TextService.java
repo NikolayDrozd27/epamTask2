@@ -9,8 +9,7 @@ import java.util.stream.Collectors;
 public class TextService {
 
     /**
-     * 1. Ќайти наибольшее количество предложений текста, в которых есть одинаковые
-     * слова.
+     * task є1
      */
     public List <TextPart> findSentenceWithRepeatingWords(Text text){
         List<TextPart> sentences = getAllSentences(text);
