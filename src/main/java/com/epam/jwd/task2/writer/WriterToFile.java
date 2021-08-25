@@ -10,8 +10,8 @@ import java.io.IOException;
 public class WriterToFile {
 
     private static final Logger logger = LogManager.getLogger(WriterToFile.class);
-    private static final String FILE_WRITE = "Text was written";
-    private static final String INVALID_FILE_PATH = "Filepath is invalid";
+    private static String FILE_WRITE = "Text was written";
+    private static String INVALID_FILE_PATH = "Filepath is invalid";
 
     public void writeText(Text text, String filePath)  {
         String outText = text.getString();

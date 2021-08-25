@@ -7,8 +7,8 @@ import org.apache.logging.log4j.Logger;
 import java.util.List;
 
 public class TextParser {
-    private static final String EMPTY_FILE = "File is empty";
-    private static final String TEXT_SUCCESSFULLY_BUILD = "Text was built";
+    private static String EMPTY_FILE = "File is empty";
+    private static String TEXT_SUCCESSFULLY_BUILD = "Text was built";
     private static final Logger logger = LogManager.getLogger(TextParser.class);
     private static final Parser NEXT_PARSER = new ParagraphParser();
 

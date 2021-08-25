@@ -10,8 +10,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class WordParser implements Parser {
-    private static final String WORD_NOT_FOUND = "Word wasn't found";
-    private static final String WORD_SUCCESSFULLY_BUILD  = "Word was built";
+    private static String WORD_NOT_FOUND = "Word wasn't found";
+    private static String WORD_SUCCESSFULLY_BUILD  = "Word was built";
     private static final Logger logger= LogManager.getLogger(WordParser.class);
     private static final Parser NEXT_PARSER = null;
     private static final Pattern WORD_PARSER =

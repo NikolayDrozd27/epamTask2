@@ -8,10 +8,10 @@ import java.io.*;
 public class  ReaderFromFile {
 
     private static final Logger logger = LogManager.getLogger(ReaderFromFile.class);
-    private static final String FILE_READ = "File was read";
-    private static final String UNSUPPORTED_ENCODING = "File with unsupported encoding";
-    private static final String INVALID_FILEPATH = "Path to file is invalid";
-    private static final String INVALID_FILE = "";
+    private static String FILE_READ = "File was read";
+    private static String UNSUPPORTED_ENCODING = "File with unsupported encoding";
+    private static String INVALID_FILEPATH = "Path to file is invalid";
+    private static String INVALID_FILE = "";
 
     public String readFile(String filePath, String encoding)  {
         StringBuilder sb = new StringBuilder();

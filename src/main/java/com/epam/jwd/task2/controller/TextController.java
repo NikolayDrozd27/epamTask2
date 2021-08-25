@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
 public class TextController {
 
     private static final Logger logger = LogManager.getLogger(TextController.class);
-    private static final String INVALID_FILE = "Read invalid file";
+    private static String INVALID_FILE = "Read invalid file";
 
     public void run(String filePathRead, String encoding,String filePathWrite){
         String initialText = new ReaderFromFile().readFile(filePathRead, encoding);

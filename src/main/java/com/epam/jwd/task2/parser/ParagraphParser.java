@@ -11,8 +11,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ParagraphParser implements Parser{
-    private static final String PARAGRAPH_NOT_FOUND = "Paragraph wasn't found";
-    private static final String PARAGRAPH_SUCCESSFULLY_BUILD = "Paragraph was built";
+    private static String PARAGRAPH_NOT_FOUND = "Paragraph wasn't found";
+    private static String PARAGRAPH_SUCCESSFULLY_BUILD = "Paragraph was built";
     private static final Logger logger= LogManager.getLogger(ParagraphParser.class);
     private static final Parser NEXT_PARSER =new SentenceParser();;
     private static final Pattern PARAGRAPH_PARSER =
