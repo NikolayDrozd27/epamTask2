@@ -1,0 +1,11 @@
+	When dealing with tree structured data programmers often have to discriminate between node and a branch. This makes code more complex, and therefore,
+more error prone. The solution is an interface that allows treating complex and primitive objects uniformly. In object programming, a composite is an object
+designed as a composition of  similar objects, all exhibiting similar functionality. This is known as a 'hasA' relationship between objects! The key concept
+is that you can manipulate a single instance of the object just as you would manipulate a group of them. The operations you can perform on all the composite objects
+often have a least common denominator relationship. For example, if defining a system to portray grouped shapes on a screen, it would be useful to define resizing
+a group of shapes to have the same effect  as resizing a single shape.
+	In software engineering, the composite pattern is a partitioning design pattern. The composite pattern describes a group of objects that are treated the same
+way as a single instance of the same type of object. The intent of a composite is to 'compose' objects into tree structures to represent part of whole hierarchies.
+Implementing the composite pattern lets clients treat individual objects and compositions uniformly.
+	Composite pattern is used where we need to treat a group of objects in similar way as a single object. Composite pattern composes objects in term of a tree structure
+to represent part as well as whole hierarchy. This type of design pattern comes under structural pattern as this pattern creates a tree structure of group of objects.
